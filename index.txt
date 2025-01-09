@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/FormatUTS.css">
+
+
+   
+
+    <title>Yuanda Profile</title>
+  <head>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      </style>
+    </head>
+  <body>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#Profile">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Course">Course Information</a>
+      </li>
+    </ul>
+      <section id="Profile" class="Profile">
+        <div class="container">
+          <h2 class="text-center" style="color: #333; font-size: 40px; font-weight: bold;">About Me</h2>
+            <div class="Profile">
+            <img width="100px"
+             class=" rounded-circle ProfileImages" 
+             src="assets/images/ProfileImages.jpg"
+             alt=""/>
+             <h2>Yuanda Adelia Murti</h2>
+             <h4>Student </h4>   
+            </div>
+        </div>
+      
+      <div class="Aboutme">
+        <h6> I am currently a third-semester student at Mercu Buana University, where I am pursuing a Bachelor's degree in Information Systems within the Faculty of Computer Science. Since starting my studies in August 2022, I have developed a strong academic foundation, maintaining a GPA of 3.6/4.0. My coursework has included essential subjects such as Database Management, Web Development, and Systems Analysis, which have equipped me with both theoretical knowledge and practical skills.
+
+          In terms of technical skills, I am proficient in programming languages like Java and Python, and I have hands-on experience with database management systems such as MySQL and Oracle. I am also familiar with web development technologies, including HTML, CSS, and JavaScript, which I have applied in various projects throughout my studies.
+          
+          Beyond academics, I am actively involved in extracurricular activities. I am a member of the Student Association of Computer Science, where I help organize workshops and seminars aimed at enhancing our learning experience and fostering collaboration among students. Additionally, I volunteer as a tutor for first-year students, assisting them with programming concepts and assignments, which has not only reinforced my own knowledge but also improved my communication and mentoring skills.
+          
+          Looking ahead, I am passionate about technology and aspire to build a career in software development or data analysis after graduation. I am particularly interested in gaining practical experience through internships that will allow me to apply my skills in real-world scenarios and contribute to meaningful projects.
+          
+          </h6>
+      </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#706677" fill-opacity="1" d="M0,192L34.3,208C68.6,224,137,256,206,256C274.3,256,343,224,411,224C480,224,549,256,617,277.3C685.7,299,754,309,823,298.7C891.4,288,960,256,1029,250.7C1097.1,245,1166,267,1234,266.7C1302.9,267,1371,245,1406,234.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        
+    </path>
+  </svg>
+    
+      <section id="Course" class="Course">
+      <h2 class="text-center" style="color: #333; font-size: 40px; font-weight: bold;">Course Information</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Subject Code</th>
+              <th>Subject</th>
+              <th>Course Schedule</th>
+              <th>Lecturer</th>
+            </tr>
+          </thead>
+          <tbody>
+               <tr>
+                  <td>U002100011</td>
+                  <td>Entrepreneurship I</td>
+                  <td>Monday 13:00 - 14.45</td>
+                  <td>Zulfitri, Dr. MP, MM</td>
+               </tr>
+                <tr>
+                  <td>F062100005</td>
+                  <td>Object Oriented Programming</td>
+                  <td>Wednesday 07:30 - 10:00</td>
+                  <td>Lukman Hakim, ST, M.Kom</td>
+               </tr>
+                <tr>
+                <td>W182100015</td>
+                <td>Business Process Modelling</td>
+                <td>Wednesday	10:15 - 12:45</td>
+                <td>Fajar Masya, Ir. MMSI</td>
+            </tr>
+              <tr>
+                <td>W182100010</td>
+                <td>Analysis and Design of Information Systems</td>
+                <td>Wednesday	13:15 - 15:45</td>
+                <td>Yunita Sartika Sari, S.Kom, M.Kom</td>
+              </tr>
+              <tr>
+                <td>W182100012</td>
+                <td>Web Programming</td>
+                <td>Thursday 07:30 - 10:00</td>
+                <td>Muhammad Ali Akbar, M.Kom</td>
+            </tr>
+              <tr>
+                <td>W182100032</td>
+                <td>Mobile Programming</td>
+                <td>Thursday 07:30 - 10:00</td>
+                <td>Muhammad Ali Akbar, M.Kom</td>
+              </tr>
+              <tr>
+                <td>U002100001</td>
+                <td>Islamic Religious Education</td>
+                <td>Friday	07:30 - 09:10		</td>
+                <td>Nini Nadhiroh, S.Pd.I,M.Pd</td>
+              </tr>
+              <tr>
+                <td>U002100007</td>
+                <td>Pancasila (National Ideology)</td>
+                <td>Friday	09:30 - 11:10</td>
+                <td>Singmin Johanes Lo, Dr, MM</td>
+              </tr>
+              <tr>
+                <td>U002100009</td>
+                <td>Indonesian Language</td>
+                <td>Friday 14:00 - 15:40</td>
+                <td>Sumardi, Drs,M.Pd</td>
+            </tr>
+
+     </tbody>
+              </table>
+           </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

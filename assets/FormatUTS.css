@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(#F2EFE5 16%, #E3E1D9 20%, #ccb7ae 30%,  #a6808c 64%, #706677 80%, #565264 100%);
+    line-height: 1.6;
+}  
+
+.Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.ProfileImages{
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 8px 4px 8px rgba(10, 10, 0, 0.3);
+    transition: transform 0.3 ease-in-out;
+}
+.ProfileImages:hover {
+    transform: scale(1.1);
+}
+
+.Profile h2{
+    transform: translateY(10px);
+    transition: color 0.3s ease;
+}
+    .Profile h2:hover {
+        color: #706677;
+}
+
+.Profile h6{
+    transform: translateY(10px);
+}
+.Aboutme {
+    text-align: justify; 
+    line-height: 1.8; 
+    margin: 40px 20px; 
+    padding: 20px;
+    transform: translateY(-10px);
+}
+.Aboutme h6 {
+    font-size: 16px;
+    color: #333;
+}
+.Course{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(#706677 16%, #a6808c 32%, #ccb7ae 80%, #E3E1D9 95%, #F2EFE5 100%);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.Course h2{
+    transform: translateY(40px);
+    margin-bottom: 20px;
+}
+    
+    table {
+        width: 100%; 
+        border-collapse: collapse;
+        transform: translateY(60px);
+        transition: transform 0.3s ease;
+        margin-bottom: 40px;
+
+}
+table tbody tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    color: #333;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.text-center{
+    font-family: 'Dampak', sans-serif; 
+    font-size: 35px; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+}
+.nav-tabs{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #706677;
+}
+.nav-link {
+    colour: #F2EFE5;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #F2EFE5;
+    background-color: #706677;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link.active{
+    background-color:#706677;
+    color: #F2EFE5;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+svg {
+    margin-top: -20px;
+    fill: #706677; /* Sesuaikan warna SVG agar selaras */
+    opacity: 0.8; /* Tambahkan transparansi */
+    transition: opacity 0.3s ease;
+}
+svg:hover{
+    opacity: 1;
+}
